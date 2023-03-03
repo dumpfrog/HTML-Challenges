@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulary</title>
+    <link rel="icon" href="https://static.thenounproject.com/png/2034112-200.png">
+</head>
+<body>
+    <form action="" id="contactform">
+        <fieldset>
+            <legend><strong>Contact</strong></legend>
+            <label for="subject"><strong>Subject:</strong></label>
+            <input type="text" list="options" id="subject" name="subject" placeholder="Subject">
+            <br>
+            <br>
+            <label for="namecom"><strong>Name Complete:</strong></label>
+            <br>
+            <input type="text" placeholder="Name" id="namecom" name="name">
+            <br>
+            <br>
+            <label for="email"><strong>E-mail:</strong></label>
+            <br>
+            <input type="email" placeholder="email@yourDOMain.com" id="email" name="email">
+            <br>
+            <br>
+            <label for="msg"><strong>Message:</strong></label>
+            <br>
+            <textarea cols="30" rows="10" id="msg" name="message" placeholder="text message here."></textarea>
+            <br>
+            <input type="checkbox"> I allow recive news in email.
+            <br>
+            <br>
+            <button type="submit" form="contactform">Send</button>
+        </fieldset>
+    </form>
+    
+    <datalist id="options">
+        <option>Suport</option>
+        <option>Sugestion</option>
+        <option>Complain</option>
+    </datalist>
+</body>
+</html>
